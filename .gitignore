@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+**/build/
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Kotlin
+*.class
+
+# Generated
+gen/
+generated/
+
+# Keystore
+*.jks
+*.keystore
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code — ignore everything except project settings
+.claude/*
+!.claude/settings.json
+memory/
+.kotlin/
